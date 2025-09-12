@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .item {
+        border: 2px solid red;
+        padding: 10px;
+        text-align: center;
+      }
+      .container {
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+        /* grid-template-columns: repeat(4, 1fr); */
+        grid-template-columns: 200px auto 400px auto;
+        grid-template-rows: 150px auto auto 300px;
+        column-gap: 10px;
+        row-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- CSS: Grid -->
+    <div class="container">
+      <div class="item">AAA</div>
+      <div class="item">BBB</div>
+      <div class="item">CCC</div>
+      <div class="item">DDD</div>
+      <div class="item">EEE</div>
+      <div class="item">FFF</div>
+      <div class="item">GGG</div>
+      <div class="item">HHH</div>
+      <div class="item">AAA</div>
+      <div class="item">BBB</div>
+      <div class="item">CCC</div>
+      <div class="item">DDD</div>
+      <div class="item">EEE</div>
+      <div class="item">FFF</div>
+      <div class="item">GGG</div>
+      <div class="item">HHH</div>
+    </div>
+  </body>
+</html>
