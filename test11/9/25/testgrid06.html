@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 180px 180px ;
+        grid-template-rows: 40px 180px 120px 120px 180px 180px 200px 30px;
+        grid-template-areas:
+          "item-1 item-1"
+          "item-2 item-2"
+          "item-3 item-4"
+          "item-5 item-6"
+          "item-7 item-7"
+          "item-8 item-8"
+          "item-9 item-9"
+          "item-10 item-10";
+      }
+      #item-1 {
+        grid-area: item-1;
+      }
+      #item-2 {
+        grid-area: item-2;
+      }
+      #item-3 {
+        grid-area: item-3;
+      }
+      #item-4 {
+        grid-area: item-4;
+      }
+      #item-5 {
+        grid-area: item-5;
+      }
+      #item-6 {
+        grid-area: item-6;
+      }
+      #item-7 {
+        grid-area: item-7;
+      }
+      #item-8 {
+        grid-area: item-8;
+      }
+      #item-9 {
+        grid-area: item-9;
+      }
+      #item-10 {
+        grid-area: item-10;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="iot" id="item-1" style="background-color: #ff0000">AAAAA</div>
+      <div class="iot" id="item-2" style="background-color: #00a2ff">BB</div>
+      <div class="iot" id="item-3" style="background-color: #00ff26">CC</div>
+      <div class="iot" id="item-4" style="background-color: #f6ff00">DD</div>
+      <div class="iot" id="item-5" style="background-color: #9e0744">EE</div>
+      <div class="iot" id="item-6" style="background-color: #2f00ff">FF</div>
+      <div class="iot" id="item-7" style="background-color: #d900ff">GG</div>
+      <div class="iot" id="item-8" style="background-color: #00d5ff">ii</div>
+      <div class="iot" id="item-9" style="background-color: #ff6f00">jj</div>
+      <div class="iot" id="item-10" style="background-color: #a200ff">kk</div>
+    </div>
+  </body>
+</html>
