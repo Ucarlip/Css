@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item {
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+        }
+ 
+        @media screen and (max-width: 768px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+ 
+        @media screen and (min-width: 769px) and (max-width: 1279px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+ 
+        @media screen and (min-width: 1280px) {
+            .container {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="container">
+        <div class="item item-a" style="background-color: red;">ITEM A</div>
+        <div class="item item-b" style="background-color: green;">ITEM B</div>
+        <div class="item item-c" style="background-color: blue;">ITEM C</div>
+        <div class="item item-d" style="background-color: violet;">ITEM D</div>
+        <div class="item item-e" style="background-color: purple;">ITEM E</div>
+    </div>
+</body>
+ 
+</html>
